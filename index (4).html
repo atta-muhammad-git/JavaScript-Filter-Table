@@ -2,26 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style (3).css">
-    <title>  JavaScript Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="input-container">
-            <h1>JavaScript Filter Table</h1>
-            <input type="text" placeholder="Add a new to do..." id="inputBox">
-            <input type="button" value="Add" id="addBtn">
-        </div>
+    <h2>Filterable  Table</h2>
 
-        <ul class="todoList" id="todoList">
-            <!-- <li><p>Task1</p></li>
-            <li>Task2</li>
-            <li>Task3</li> -->
-        </ul>
-    </div>
+  <input type="text" id="searchInput">
 
-    <script src="script (1).js"></script>
+  <table id="Table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>origin</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Apple</td>
+        <td>Fruit</td>
+        <td>Food</td>
+      </tr>
+      <tr>
+        <td>Carrot</td>
+        <td>Vegetable</td>
+        <td>Food</td>
+      </tr>
+      <tr>
+        <td>mobile</td>
+        <td>Electronics</td>
+        <td>Device</td>
+      </tr>
+      <tr>
+        <td>Shirt</td>
+        <td>Clothing</td>
+        <td>Apparel</td>
+      </tr>
+      <tr>
+        <td>banana</td>
+        <td>Fruit</td>
+        <td>Food</td>
+      </tr>
+    </tbody>
+  </table>
+
+    <script src="app.js"></script>
 </body>
 </html>
